@@ -1,4 +1,4 @@
-# Rotate Component
+# Infinite Banner Component
 
 A versatile React component for creating smooth, infinite animations in any direction. The `InfiniteBanner` component utilizes `framer-motion` to animate elements seamlessly either horizontally or vertically, with customizable speed and spacing.
 
@@ -26,7 +26,7 @@ yarn add react-infinite-banner
 
 ## Usage
 
-Import the `Rotate` component in your React application:
+Import the `InfiniteBanner` component in your React application:
 
 ```javascript
 import { InfiniteBanner } from 'react-infinite-banner';
