@@ -1,1 +1,1 @@
-export { Rotate } from './Rotate';
+export { InfiniteBanner } from './InfiniteBanner';

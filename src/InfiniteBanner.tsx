@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 
-interface RotateProps {
+interface InfiniteBannerProps {
     direction: {
         axis: 'X' | 'Y';
         direction: 'normal' | 'reverse';
@@ -11,7 +11,7 @@ interface RotateProps {
     children: React.ReactNode[];
 }
 
-export const Rotate: React.FC<RotateProps> = ({ direction, children, gap = 0, duration = 10 }) => {
+export const InfiniteBanner: React.FC<InfiniteBannerProps> = ({ direction, children, gap = 0, duration = 10 }) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [dimension, setDimension] = useState(0);
     const extendedChildren = [...children, ...children];
