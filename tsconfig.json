@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "declaration": true,
+        "sourceMap": true,
+        "esModuleInterop": true, // Add this line
+        "skipLibCheck": true, // Optional, but can help with library type inconsistencies
+        "strict": true // Optional, enables strict type-checking options
+      },
+    "include": ["*.tsx", "*.ts", "src/Rotate.tsx", "src/index.ts"]
+}

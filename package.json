@@ -1,0 +1,25 @@
+{
+    "name": "react-infinite-banner",
+    "version": "1.0.0",
+    "description": "A customizable rotate component for React",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "peerDependencies": {
+        "framer-motion": "^10.16.5",
+        "react": "^18.2.0"
+    },
+    "keywords": [
+        "react",
+        "rotate",
+        "component"
+    ],
+    "author": "Caleb J Lamoreaux",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/react": "^18.2.37",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}
