@@ -1,6 +1,6 @@
 {
     "name": "react-infinite-banner",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A customizable rotate component for React",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
