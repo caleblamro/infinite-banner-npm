@@ -2,6 +2,10 @@
 
 A versatile React component for creating smooth, infinite animations in any direction. The `Rotate` component utilizes `framer-motion` to animate elements seamlessly either horizontally or vertically, with customizable speed and spacing.
 
+## Repo
+
+https://github.com/caleblamro/infinite-banner-npm
+
 ## Installation
 
 To install the Rotate component, use npm or yarn:
